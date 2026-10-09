@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Friends",
+    "slug": "friends-mobile-app",
+    "version": "1.1.0",
+    "description": "A simple demo app for making plans with friends.",
+    "scheme": "friends",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.friendsmobileapp.studentproject",
+      "adaptiveIcon": {
+        "backgroundColor": "#315C4B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "53f79d11-386e-4377-9a8b-ed7ab9fe36ab"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FBF8F2",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 280
+        }
+      ]
+    ]
+  }
+}
